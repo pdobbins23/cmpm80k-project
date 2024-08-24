@@ -147,15 +147,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "truckinterior4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "truckinterior4.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "stations-nomeat.png",
         "kind": "image",
         "metadata": "",
@@ -243,6 +234,60 @@
         "name": "Nothing",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/truckinterior.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/truckinterior.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "frame.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/frame.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/frame.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_frame.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/frame",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_frame2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/frame2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_frame3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/frame3",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -292,7 +337,7 @@
           "width": 96,
           "x": 867,
           "y": 309,
-          "zOrder": 3,
+          "zOrder": 5,
           "numberProperties": [
             {
               "name": "animation",
@@ -309,6 +354,7 @@
           "height": 720,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "TruckInterior",
           "persistentUuid": "a2b16090-d184-4df2-a74d-bb373e721dc3",
           "width": 1280,
@@ -326,6 +372,7 @@
           "height": 80,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Station",
           "persistentUuid": "159b6da1-192d-4ae0-b10e-6e1b16c27c9a",
           "width": 80,
@@ -339,7 +386,14 @@
             }
           ],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Type",
+              "type": "number",
+              "value": 1
+            }
+          ]
         },
         {
           "angle": 0,
@@ -348,6 +402,7 @@
           "height": 80,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Station",
           "persistentUuid": "bc76b32e-4bbf-4edd-a8ca-286b3e301f16",
           "width": 80,
@@ -361,7 +416,14 @@
             }
           ],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Type",
+              "type": "number",
+              "value": 1
+            }
+          ]
         },
         {
           "angle": 0,
@@ -370,6 +432,7 @@
           "height": 80,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Station",
           "persistentUuid": "af1efe2f-fd96-4f8d-aae3-d44a79404ec4",
           "width": 80,
@@ -383,7 +446,14 @@
             }
           ],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Type",
+              "type": "number",
+              "value": 1
+            }
+          ]
         },
         {
           "angle": 0,
@@ -392,6 +462,7 @@
           "height": 80,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Station",
           "persistentUuid": "035d5f80-011b-4a6d-b104-63a7bcd07ca1",
           "width": 80,
@@ -405,7 +476,14 @@
             }
           ],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Type",
+              "type": "number",
+              "value": 1
+            }
+          ]
         },
         {
           "angle": 0,
@@ -414,6 +492,7 @@
           "height": 80,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Station",
           "persistentUuid": "08d945c7-779b-4c78-bf20-52488da2ff8a",
           "width": 80,
@@ -436,6 +515,7 @@
           "height": 80,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Station",
           "persistentUuid": "1cae0dfb-e7fc-44f6-857d-8064de8daefb",
           "width": 80,
@@ -448,6 +528,23 @@
               "value": 0
             }
           ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0.9259259259259258,
+          "height": 52.777777777777786,
+          "keepRatio": true,
+          "layer": "",
+          "name": "InteractIcon",
+          "persistentUuid": "4c0ba4a6-b61c-4f2b-b010-86242bfc0fa9",
+          "width": 50,
+          "x": 810,
+          "y": 200,
+          "zOrder": 4,
+          "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -688,7 +785,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "truckinterior4.png",
+                      "image": "assets/truckinterior.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -845,9 +942,45 @@
           "variables": [
             {
               "folded": true,
+              "name": "Type",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
               "name": "ShowingPopup",
               "type": "boolean",
               "value": false
+            },
+            {
+              "folded": true,
+              "name": "Unlocked",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "NeedPlayer",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "ActiveTime",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "DoughTime",
+              "type": "number",
+              "value": 3
+            },
+            {
+              "folded": true,
+              "name": "StoveTime",
+              "type": "number",
+              "value": 3
             }
           ],
           "effects": [],
@@ -1178,6 +1311,67 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "InteractIcon",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/frame",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/frame3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 16,
+                        "y": 32
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -1191,6 +1385,9 @@
           },
           {
             "objectName": "Station"
+          },
+          {
+            "objectName": "InteractIcon"
           }
         ]
       },
@@ -1470,6 +1667,17 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Station",
+                "ShowingPopup",
+                "True",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -1496,7 +1704,7 @@
               "parameters": [
                 "Station",
                 "ShowingPopup",
-                "True",
+                "=",
                 ""
               ]
             }
@@ -1504,13 +1712,10 @@
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "Cache"
               },
               "parameters": [
-                "Station",
-                "Animation",
-                "=",
-                "\"Dough-1\""
+                "InteractIcon"
               ]
             }
           ]
@@ -1525,21 +1730,415 @@
               "parameters": [
                 "Station",
                 "ShowingPopup",
-                "=",
+                "True",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Station",
+                "ActiveTime",
+                "=",
+                "0"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "InteractIcon",
+                "Station",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "InteractIcon",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
               },
               "parameters": [
                 "Station",
-                "Animation",
+                "ShowingPopup",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Station",
+                "ActiveTime",
                 "=",
-                "\"Nothing\""
+                "0"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Station",
+                    "Unlocked",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Station",
+                    "\"ActiveTimer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UnPauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Station",
+                    "\"ActiveTimer\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Station",
+                        "Type",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Station",
+                        "ActiveTime",
+                        "=",
+                        "Station.DoughTime"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Station",
+                        "Animation",
+                        "=",
+                        "\"Dough-2\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Station",
+                        "Type",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Station",
+                        "ActiveTime",
+                        "=",
+                        "Station.StoveTime"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Station",
+                        "Animation",
+                        "=",
+                        "\"Stove-2\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Station",
+                    "Unlocked",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Station",
+                    "Unlocked",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Station",
+                        "Type",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Station",
+                        "Animation",
+                        "=",
+                        "\"Dough-1\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Station",
+                        "Type",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Station",
+                        "Animation",
+                        "=",
+                        "\"Stove-1\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Station",
+                "\"ActiveTimer\"",
+                ">=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Station",
+                "ActiveTime",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Station",
+                "\"ActiveTimer\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Station",
+                    "ActiveTime",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Station",
+                    "\"ActiveTimer\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Station",
+                        "Type",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Station",
+                        "Animation",
+                        "=",
+                        "\"Dough-3\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Station",
+                        "Type",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Station",
+                        "Animation",
+                        "=",
+                        "\"Stove-3\""
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ]
