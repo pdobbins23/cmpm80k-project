@@ -21,7 +21,7 @@
     "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "CMPM80K Project",
-    "description": "",
+    "description": "By Ronan Tsoi, Peter Dobbins, Andrew Ng",
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
@@ -2127,7 +2127,7 @@
           "actions": [
             {
               "type": {
-                "value": "PlayMusic"
+                "value": "PlaySound"
               },
               "parameters": [
                 "",
