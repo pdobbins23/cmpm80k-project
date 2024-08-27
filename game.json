@@ -467,7 +467,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6040838749988872,
+        "zoomFactor": 0.6672773998329986,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -537,6 +537,36 @@
           "initialVariables": [
             {
               "folded": true,
+              "name": "Produces",
+              "type": "string",
+              "value": "FriedDough"
+            },
+            {
+              "folded": true,
+              "name": "Stage3_Sprite",
+              "type": "string",
+              "value": "Stove-3"
+            },
+            {
+              "folded": true,
+              "name": "Stage2_Sprite",
+              "type": "string",
+              "value": "Stove-2"
+            },
+            {
+              "folded": true,
+              "name": "Stage1_Sprite",
+              "type": "string",
+              "value": "Stove-1"
+            },
+            {
+              "folded": true,
+              "name": "NeedTime",
+              "type": "number",
+              "value": 10
+            },
+            {
+              "folded": true,
               "name": "Unlocked",
               "type": "boolean",
               "value": true
@@ -545,7 +575,7 @@
               "folded": true,
               "name": "Type",
               "type": "number",
-              "value": 1
+              "value": 2
             },
             {
               "name": "NeedItems",
@@ -555,7 +585,7 @@
                   "folded": true,
                   "name": "KneadedDough",
                   "type": "number",
-                  "value": 0
+                  "value": 1
                 }
               ]
             }
@@ -578,16 +608,52 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 0
+              "value": 4
             }
           ],
           "stringProperties": [],
           "initialVariables": [
             {
               "folded": true,
+              "name": "Produces",
+              "type": "string",
+              "value": "FriedDough"
+            },
+            {
+              "folded": true,
+              "name": "Stage3_Sprite",
+              "type": "string",
+              "value": "Stove-3"
+            },
+            {
+              "folded": true,
+              "name": "Stage2_Sprite",
+              "type": "string",
+              "value": "Stove-2"
+            },
+            {
+              "folded": true,
+              "name": "Stage1_Sprite",
+              "type": "string",
+              "value": "Stove-1"
+            },
+            {
+              "folded": true,
+              "name": "NeedTime",
+              "type": "number",
+              "value": 10
+            },
+            {
+              "folded": true,
+              "name": "Unlocked",
+              "type": "boolean",
+              "value": true
+            },
+            {
+              "folded": true,
               "name": "Type",
               "type": "number",
-              "value": 1
+              "value": 2
             },
             {
               "name": "NeedItems",
@@ -596,7 +662,7 @@
                 {
                   "name": "KneadedDough",
                   "type": "number",
-                  "value": 0
+                  "value": 1
                 }
               ]
             }
@@ -619,16 +685,52 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 0
+              "value": 4
             }
           ],
           "stringProperties": [],
           "initialVariables": [
             {
               "folded": true,
+              "name": "Produces",
+              "type": "string",
+              "value": "FriedDough"
+            },
+            {
+              "folded": true,
+              "name": "Stage3_Sprite",
+              "type": "string",
+              "value": "Stove-3"
+            },
+            {
+              "folded": true,
+              "name": "Stage2_Sprite",
+              "type": "string",
+              "value": "Stove-2"
+            },
+            {
+              "folded": true,
+              "name": "Stage1_Sprite",
+              "type": "string",
+              "value": "Stove-1"
+            },
+            {
+              "folded": true,
+              "name": "NeedTime",
+              "type": "number",
+              "value": 10
+            },
+            {
+              "folded": true,
+              "name": "Unlocked",
+              "type": "boolean",
+              "value": true
+            },
+            {
+              "folded": true,
               "name": "Type",
               "type": "number",
-              "value": 1
+              "value": 2
             },
             {
               "name": "NeedItems",
@@ -638,7 +740,7 @@
                   "folded": true,
                   "name": "KneadedDough",
                   "type": "number",
-                  "value": 0
+                  "value": 1
                 }
               ]
             }
@@ -661,16 +763,52 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 0
+              "value": 4
             }
           ],
           "stringProperties": [],
           "initialVariables": [
             {
               "folded": true,
+              "name": "Produces",
+              "type": "string",
+              "value": "FriedDough"
+            },
+            {
+              "folded": true,
+              "name": "Stage3_Sprite",
+              "type": "string",
+              "value": "Stove-3"
+            },
+            {
+              "folded": true,
+              "name": "Stage2_Sprite",
+              "type": "string",
+              "value": "Stove-2"
+            },
+            {
+              "folded": true,
+              "name": "Stage1_Sprite",
+              "type": "string",
+              "value": "Stove-1"
+            },
+            {
+              "folded": true,
+              "name": "NeedTime",
+              "type": "number",
+              "value": 10
+            },
+            {
+              "folded": true,
+              "name": "Unlocked",
+              "type": "boolean",
+              "value": true
+            },
+            {
+              "folded": true,
               "name": "Type",
               "type": "number",
-              "value": 1
+              "value": 2
             },
             {
               "name": "NeedItems",
@@ -702,11 +840,53 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 0
+              "value": 1
             }
           ],
           "stringProperties": [],
           "initialVariables": [
+            {
+              "folded": true,
+              "name": "Produces",
+              "type": "string",
+              "value": "KneadedDough"
+            },
+            {
+              "folded": true,
+              "name": "Stage3_Sprite",
+              "type": "string",
+              "value": "Dough-3"
+            },
+            {
+              "folded": true,
+              "name": "Stage2_Sprite",
+              "type": "string",
+              "value": "Dough-2"
+            },
+            {
+              "folded": true,
+              "name": "Stage1_Sprite",
+              "type": "string",
+              "value": "Dough-1"
+            },
+            {
+              "folded": true,
+              "name": "NeedTime",
+              "type": "number",
+              "value": 5
+            },
+            {
+              "folded": true,
+              "name": "Type",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "folded": true,
+              "name": "Unlocked",
+              "type": "boolean",
+              "value": true
+            },
             {
               "name": "NeedItems",
               "type": "structure",
@@ -742,6 +922,42 @@
           ],
           "stringProperties": [],
           "initialVariables": [
+            {
+              "folded": true,
+              "name": "Produces",
+              "type": "string",
+              "value": "KneadedDough"
+            },
+            {
+              "folded": true,
+              "name": "Stage3_Sprite",
+              "type": "string",
+              "value": "Dough-3"
+            },
+            {
+              "folded": true,
+              "name": "Stage2_Sprite",
+              "type": "string",
+              "value": "Dough-2"
+            },
+            {
+              "folded": true,
+              "name": "Stage1_Sprite",
+              "type": "string",
+              "value": "Dough-1"
+            },
+            {
+              "folded": true,
+              "name": "NeedTime",
+              "type": "number",
+              "value": 5
+            },
+            {
+              "folded": true,
+              "name": "Type",
+              "type": "number",
+              "value": 1
+            },
             {
               "folded": true,
               "name": "Unlocked",
@@ -782,23 +998,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 76,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Window",
-          "persistentUuid": "3e0b9c44-24f3-4a57-9c0e-5e37c6f346ef",
-          "width": 61,
-          "x": 884,
-          "y": 216,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 0.8727272727272727,
           "height": 91.63636363636363,
           "keepRatio": true,
@@ -812,6 +1011,66 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 65,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Station",
+          "persistentUuid": "6af61b07-a1b7-4bd0-9dd3-853e27d0bf6f",
+          "width": 60,
+          "x": 885,
+          "y": 225,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Stage3_Sprite",
+              "type": "string",
+              "value": "None"
+            },
+            {
+              "folded": true,
+              "name": "Stage2_Sprite",
+              "type": "string",
+              "value": "None"
+            },
+            {
+              "folded": true,
+              "name": "Stage1_Sprite",
+              "type": "string",
+              "value": "None"
+            },
+            {
+              "folded": true,
+              "name": "Unlocked",
+              "type": "boolean",
+              "value": true
+            },
+            {
+              "folded": true,
+              "name": "Type",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "NeedItems",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "FriedDough",
+                  "type": "number",
+                  "value": 1
+                }
+              ]
+            }
+          ]
         }
       ],
       "objects": [
@@ -1317,12 +1576,6 @@
             },
             {
               "folded": true,
-              "name": "ShowingPopup",
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "folded": true,
               "name": "Unlocked",
               "type": "boolean",
               "value": false
@@ -1346,28 +1599,46 @@
             },
             {
               "folded": true,
+              "name": "NeedTime",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
               "name": "ActiveTime",
               "type": "number",
               "value": 0
             },
             {
               "folded": true,
-              "name": "DoughTime",
-              "type": "number",
-              "value": 5
+              "name": "Produces",
+              "type": "string",
+              "value": "None"
             },
             {
               "folded": true,
-              "name": "StoveTime",
-              "type": "number",
-              "value": 10
+              "name": "Stage1_Sprite",
+              "type": "string",
+              "value": "None"
+            },
+            {
+              "folded": true,
+              "name": "Stage2_Sprite",
+              "type": "string",
+              "value": "None"
+            },
+            {
+              "folded": true,
+              "name": "Stage3_Sprite",
+              "type": "string",
+              "value": "None"
             }
           ],
           "effects": [],
           "behaviors": [],
           "animations": [
             {
-              "name": "Nothing",
+              "name": "None",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1879,55 +2150,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Window",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "folded": true,
-              "name": "ShowingPopup",
-              "type": "boolean",
-              "value": false
-            }
-          ],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Window",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Window",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "Hotbar",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -2098,9 +2320,6 @@
             "objectName": "Station"
           },
           {
-            "objectName": "Window"
-          },
-          {
             "objectName": "InteractIcon"
           },
           {
@@ -2133,7 +2352,7 @@
                 "",
                 "assets/cooking.wav",
                 "yes",
-                "",
+                "0",
                 ""
               ]
             }
@@ -2178,6 +2397,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2432,6 +2652,43 @@
           "conditions": [
             {
               "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "Station",
+                "Player",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "LinkedObjects::RemoveLinkBetween"
+              },
+              "parameters": [
+                "",
+                "Station",
+                "Player"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "InteractIcon"
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "PickNearest"
               },
               "parameters": [
@@ -2452,18 +2709,87 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Station",
+                "Unlocked",
+                "True",
+                ""
+              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetBooleanObjectVariable"
+                "value": "LinkedObjects::LinkObjects"
               },
               "parameters": [
+                "",
                 "Station",
-                "ShowingPopup",
-                "True",
-                "\"Dough-1\""
+                "Player"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Station",
+                        "Stage",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Station",
+                        "Stage",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreAutour"
+                  },
+                  "parameters": [
+                    "InteractIcon",
+                    "Station",
+                    "0",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "InteractIcon",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -2473,11 +2799,13 @@
           "conditions": [
             {
               "type": {
-                "value": "AjoutObjConcern"
+                "value": "LinkedObjects::PickObjectsLinkedTo"
               },
               "parameters": [
                 "",
-                "Station"
+                "Station",
+                "Player",
+                ""
               ]
             },
             {
@@ -2492,283 +2820,33 @@
                 "",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Station",
-                "ShowingPopup",
-                "True",
-                ""
-              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetBooleanObjectVariable"
+                "value": "LinkedObjects::RemoveLinkBetween"
               },
               "parameters": [
+                "",
                 "Station",
-                "ShowingPopup",
-                "False",
-                ""
+                "Player"
               ]
             }
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "LinkedObjects::PickObjectsLinkedTo"
               },
               "parameters": [
+                "",
+                "Station",
                 "Player",
-                "Window",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "Window",
-                "ShowingPopup",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AjoutObjConcern"
-              },
-              "parameters": [
-                "",
-                "Station"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "Station",
-                "ShowingPopup",
-                "False",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "Window",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "Window",
-                "ShowingPopup",
-                "False",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Station",
-                "ShowingPopup",
-                "=",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "InteractIcon"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Window",
-                "ShowingPopup",
-                "=",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "InteractIcon"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Station",
-                "ShowingPopup",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Station",
-                    "Stage",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Station",
-                    "Stage",
-                    "=",
-                    "3"
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreAutour"
-              },
-              "parameters": [
-                "InteractIcon",
-                "Station",
-                "0",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "InteractIcon",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Window",
-                "ShowingPopup",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreAutour"
-              },
-              "parameters": [
-                "InteractIcon",
-                "Window",
-                "0",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "InteractIcon",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Station",
-                "ShowingPopup",
-                "True",
                 ""
               ]
             },
@@ -2785,6 +2863,7 @@
           "actions": [],
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -2806,44 +2885,106 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "BooleanObjectVariable"
+                        "inverted": true,
+                        "value": "ObjectVariableChildExists"
                       },
                       "parameters": [
                         "Station",
-                        "Unlocked",
-                        "True",
+                        "NeedItems",
+                        "Player.Item"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets/no_item.wav",
+                        "",
+                        "",
                         ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableChildExists"
+                      },
+                      "parameters": [
+                        "Station",
+                        "NeedItems",
+                        "Player.Item"
                       ]
                     }
                   ],
                   "actions": [],
                   "events": [
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
-                            "inverted": true,
-                            "value": "ObjectVariableChildExists"
+                            "value": "StringObjectVariable"
                           },
                           "parameters": [
-                            "Station",
-                            "NeedItems",
-                            "Player.Item"
+                            "Player",
+                            "Item",
+                            "!=",
+                            "\"None\""
                           ]
                         }
                       ],
                       "actions": [
                         {
                           "type": {
-                            "value": "PlaySound"
+                            "value": "SetStringObjectVariable"
                           },
                           "parameters": [
-                            "",
-                            "assets/no_item.wav",
-                            "",
-                            "",
-                            ""
+                            "Player",
+                            "Item",
+                            "=",
+                            "\"None\""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Station",
+                                "Type",
+                                "!=",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "PickupItem",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -2853,12 +2994,13 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "ObjectVariableChildExists"
+                            "value": "NumberObjectVariable"
                           },
                           "parameters": [
                             "Station",
-                            "NeedItems",
-                            "Player.Item"
+                            "NeedTime",
+                            ">",
+                            "0"
                           ]
                         }
                       ],
@@ -2872,6 +3014,17 @@
                             "Stage",
                             "=",
                             "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Station",
+                            "ActiveTime",
+                            "=",
+                            "Station.NeedTime"
                           ]
                         },
                         {
@@ -2906,6 +3059,17 @@
                         },
                         {
                           "type": {
+                            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                          },
+                          "parameters": [
+                            "ProgressBar",
+                            "=",
+                            "Station.NeedTime",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "LinkedObjects::LinkObjects"
                           },
                           "parameters": [
@@ -2916,165 +3080,17 @@
                         },
                         {
                           "type": {
-                            "value": "SetStringObjectVariable"
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "Player",
-                            "Item",
+                            "Station",
+                            "Animation",
                             "=",
-                            "\"None\""
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "NumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Station",
-                                "Type",
-                                "=",
-                                "0"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetNumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Station",
-                                "ActiveTime",
-                                "=",
-                                "Station.DoughTime"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
-                              },
-                              "parameters": [
-                                "ProgressBar",
-                                "=",
-                                "Station.DoughTime",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Station",
-                                "Animation",
-                                "=",
-                                "\"Dough-2\""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "NumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Station",
-                                "Type",
-                                "=",
-                                "1"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetNumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Station",
-                                "ActiveTime",
-                                "=",
-                                "Station.StoveTime"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
-                              },
-                              "parameters": [
-                                "ProgressBar",
-                                "=",
-                                "Station.StoveTime",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Station",
-                                "Animation",
-                                "=",
-                                "\"Stove-2\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlaySound"
-                              },
-                              "parameters": [
-                                "",
-                                "PickupItem",
-                                "",
-                                "",
-                                ""
-                              ]
-                            }
+                            "Station.Stage2_Sprite"
                           ]
                         }
                       ]
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BooleanObjectVariable"
-                      },
-                      "parameters": [
-                        "Station",
-                        "Unlocked",
-                        "=",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetBooleanObjectVariable"
-                      },
-                      "parameters": [
-                        "Station",
-                        "Unlocked",
-                        "True",
-                        ""
-                      ]
-                    }
-                  ],
-                  "events": [
+                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -3093,42 +3109,14 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                            "value": "PlaySound"
                           },
                           "parameters": [
-                            "Station",
-                            "Animation",
-                            "=",
-                            "\"Dough-1\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Station",
-                            "Type",
-                            "=",
-                            "1"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Station",
-                            "Animation",
-                            "=",
-                            "\"Stove-1\""
+                            "",
+                            "assets/sell_item.wav",
+                            "",
+                            "",
+                            ""
                           ]
                         }
                       ]
@@ -3177,6 +3165,28 @@
                 },
                 {
                   "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Item",
+                    "=",
+                    "Station.Produces"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Station",
+                    "Animation",
+                    "=",
+                    "Station.Stage1_Sprite"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PlaySound"
                   },
                   "parameters": [
@@ -3187,93 +3197,12 @@
                     ""
                   ]
                 }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Station",
-                        "Type",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringObjectVariable"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Item",
-                        "=",
-                        "\"KneadedDough\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Station",
-                        "Animation",
-                        "=",
-                        "\"Dough-1\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Station",
-                        "Type",
-                        "=",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringObjectVariable"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Item",
-                        "=",
-                        "\"FriedDough\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Station",
-                        "Animation",
-                        "=",
-                        "\"Stove-1\""
-                      ]
-                    }
-                  ]
-                }
               ]
             }
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3402,6 +3331,17 @@
                 },
                 {
                   "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Station",
+                    "Animation",
+                    "=",
+                    "Station.Stage3_Sprite"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PlaySound"
                   },
                   "parameters": [
@@ -3412,127 +3352,6 @@
                     ""
                   ]
                 }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Station",
-                        "Type",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Station",
-                        "Animation",
-                        "=",
-                        "\"Dough-3\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Station",
-                        "Type",
-                        "=",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Station",
-                        "Animation",
-                        "=",
-                        "\"Stove-3\""
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Window",
-                "ShowingPopup",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "e"
-              ]
-            },
-            {
-              "type": {
-                "value": "StringObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "Item",
-                "=",
-                "\"FriedDough\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "Item",
-                "=",
-                "\"None\""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets/sell_item.wav",
-                "",
-                "",
-                ""
               ]
             }
           ]
