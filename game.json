@@ -445,7 +445,32 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "TimeCycle",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "IsNight",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "DayDuration",
+      "type": "number",
+      "value": 30
+    },
+    {
+      "folded": true,
+      "name": "NightDuration",
+      "type": "number",
+      "value": 10
+    }
+  ],
   "layouts": [
     {
       "b": 209,
@@ -608,7 +633,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 4
+              "value": 0
             }
           ],
           "stringProperties": [],
@@ -642,12 +667,6 @@
               "name": "NeedTime",
               "type": "number",
               "value": 10
-            },
-            {
-              "folded": true,
-              "name": "Unlocked",
-              "type": "boolean",
-              "value": true
             },
             {
               "folded": true,
@@ -685,7 +704,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 4
+              "value": 0
             }
           ],
           "stringProperties": [],
@@ -719,12 +738,6 @@
               "name": "NeedTime",
               "type": "number",
               "value": 10
-            },
-            {
-              "folded": true,
-              "name": "Unlocked",
-              "type": "boolean",
-              "value": true
             },
             {
               "folded": true,
@@ -763,7 +776,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 4
+              "value": 0
             }
           ],
           "stringProperties": [],
@@ -797,12 +810,6 @@
               "name": "NeedTime",
               "type": "number",
               "value": 10
-            },
-            {
-              "folded": true,
-              "name": "Unlocked",
-              "type": "boolean",
-              "value": true
             },
             {
               "folded": true,
@@ -840,7 +847,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 1
+              "value": 0
             }
           ],
           "stringProperties": [],
@@ -880,12 +887,6 @@
               "name": "Type",
               "type": "number",
               "value": 1
-            },
-            {
-              "folded": true,
-              "name": "Unlocked",
-              "type": "boolean",
-              "value": true
             },
             {
               "name": "NeedItems",
@@ -1071,6 +1072,23 @@
               ]
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 41,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ProgressBar",
+          "persistentUuid": "9abb2be7-9513-4784-8b95-1804e09aeb64",
+          "width": 632,
+          "x": 171,
+          "y": 644,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -2346,6 +2364,46 @@
           "actions": [
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "TimeCycle",
+                "=",
+                "DayDuration"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"TimeCycle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "ProgressBar",
+                "TruckInterior"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+              },
+              "parameters": [
+                "ProgressBar",
+                "=",
+                "DayDuration",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "PlaySound"
               },
               "parameters": [
@@ -2354,6 +2412,204 @@
                 "yes",
                 "0",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "InteractIcon"
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"TimeCycle\"",
+                ">=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"TimeCycle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "TimeCycle",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "ProgressBar",
+                "TruckInterior",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "ProgressBar",
+                "=",
+                "ProgressBar.MaxValue() - TimeCycle",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "TimeCycle",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "IsNight",
+                    "Toggle",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsNight",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TimeCycle",
+                        "=",
+                        "NightDuration"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "ProgressBar",
+                        "TruckInterior",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                      },
+                      "parameters": [
+                        "ProgressBar",
+                        "=",
+                        "NightDuration",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsNight",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TimeCycle",
+                        "=",
+                        "DayDuration"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "ProgressBar",
+                        "TruckInterior",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                      },
+                      "parameters": [
+                        "ProgressBar",
+                        "=",
+                        "DayDuration",
+                        ""
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ]
