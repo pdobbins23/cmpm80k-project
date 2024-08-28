@@ -3760,6 +3760,16 @@
                             "True",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "Money",
+                            ">=",
+                            "75"
+                          ]
                         }
                       ],
                       "actions": [
@@ -3773,6 +3783,16 @@
                             "",
                             "",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Money",
+                            "-",
+                            "75"
                           ]
                         }
                       ],
@@ -3945,13 +3965,31 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BooleanObjectVariable"
+                            "value": "BuiltinCommonInstructions::Or"
                           },
-                          "parameters": [
-                            "UpgradeDough",
-                            "UpgradeAvailable",
-                            "False",
-                            ""
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "BooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "UpgradeDough",
+                                "UpgradeAvailable",
+                                "False",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "Money",
+                                "<",
+                                "75"
+                              ]
+                            }
                           ]
                         }
                       ],
@@ -4001,6 +4039,16 @@
                             "True",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "Money",
+                            ">=",
+                            "75"
+                          ]
                         }
                       ],
                       "actions": [
@@ -4015,11 +4063,20 @@
                             "",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Money",
+                            "-",
+                            "75"
+                          ]
                         }
                       ],
                       "events": [
                         {
-                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -4186,13 +4243,31 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BooleanObjectVariable"
+                            "value": "BuiltinCommonInstructions::Or"
                           },
-                          "parameters": [
-                            "UpgradeStove",
-                            "UpgradeAvailable",
-                            "False",
-                            ""
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "BooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "UpgradeStove",
+                                "UpgradeAvailable",
+                                "False",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "Money",
+                                "<",
+                                "75"
+                              ]
+                            }
                           ]
                         }
                       ],
@@ -4244,6 +4319,15 @@
                     "",
                     "Up"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "w"
+                  ]
                 }
               ],
               "actions": [
@@ -4282,6 +4366,15 @@
                   "parameters": [
                     "",
                     "Down"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "s"
                   ]
                 }
               ],
@@ -4399,6 +4492,15 @@
                     "",
                     "Left"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "a"
+                  ]
                 }
               ],
               "actions": [
@@ -4436,6 +4538,15 @@
                   "parameters": [
                     "",
                     "Right"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "d"
                   ]
                 }
               ],
@@ -4711,6 +4822,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4737,6 +4849,7 @@
               "actions": [],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -4784,6 +4897,7 @@
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -5330,6 +5444,33 @@
                     "Animation",
                     "=",
                     "\"FriedDough\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Money",
+                    ">=",
+                    "500"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"End\"",
+                    ""
                   ]
                 }
               ]
