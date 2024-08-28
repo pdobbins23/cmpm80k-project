@@ -472,6 +472,16 @@
         "name": "NewSprite4",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/night.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/night.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1130,8 +1140,8 @@
           "layer": "",
           "name": "ProgressBar",
           "persistentUuid": "9abb2be7-9513-4784-8b95-1804e09aeb64",
-          "width": 632,
-          "x": 171,
+          "width": 446,
+          "x": 357,
           "y": 644,
           "zOrder": 9,
           "numberProperties": [],
@@ -2707,18 +2717,6 @@
             },
             {
               "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets/cooking.wav",
-                "yes",
-                "0",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "Cache"
               },
               "parameters": [
@@ -2747,6 +2745,19 @@
               },
               "parameters": [
                 "UpgradeDough"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets/cooking.wav",
+                "0",
+                "100",
+                "",
+                ""
               ]
             }
           ]
@@ -2903,6 +2914,28 @@
                         "TotalDays",
                         "+",
                         "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StopSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets/night.wav",
+                        "0",
+                        "100",
+                        "",
+                        ""
                       ]
                     }
                   ],
@@ -3322,6 +3355,28 @@
                         "ProgressBar",
                         "=",
                         "DayDuration",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StopSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets/cooking.wav",
+                        "0",
+                        "100",
+                        "",
                         ""
                       ]
                     }
