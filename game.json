@@ -522,6 +522,15 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Google Fonts/Japanese/9bf5e100819cd6d0fd92481cdb1282f88a48e49dfb3709df8015e0cd37de8fb4_MPLUS1p-ExtraBold.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/endcard.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\endcard.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -548,7 +557,7 @@
       "folded": true,
       "name": "DayDuration",
       "type": "number",
-      "value": 10
+      "value": 60
     },
     {
       "folded": true,
@@ -576,7 +585,7 @@
     },
     {
       "folded": true,
-      "name": "Money",
+      "name": "Money1",
       "type": "number",
       "value": 0
     }
@@ -1247,6 +1256,38 @@
           "x": 5,
           "y": 220,
           "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Money",
+          "persistentUuid": "003f73c0-b9e5-4539-86f7-32553f0d74d4",
+          "width": 0,
+          "x": 36,
+          "y": 29,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Total_Days",
+          "persistentUuid": "e6f1237c-beb9-40c5-aae7-240b62271130",
+          "width": 0,
+          "x": 40,
+          "y": 83,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2679,6 +2720,88 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Money",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Money: $0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 246,
+            "g": 246,
+            "r": 253
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Money: $0",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 40,
+            "color": "253;246;246"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Total_Days",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Day: 1",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 245,
+            "g": 245,
+            "r": 245
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Day: 1",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 40,
+            "color": "245;245;245"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -2710,6 +2833,12 @@
           },
           {
             "objectName": "Arrow"
+          },
+          {
+            "objectName": "Money"
+          },
+          {
+            "objectName": "Total_Days"
           }
         ]
       },
@@ -2807,7 +2936,7 @@
                 "",
                 "assets/cooking.wav",
                 "0",
-                "100",
+                "yes",
                 "",
                 ""
               ]
@@ -2985,15 +3114,25 @@
                         "",
                         "assets/night.wav",
                         "0",
-                        "100",
+                        "yes",
                         "",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Total_Days",
+                        "Text",
+                        "=",
+                        "\"Days:\" +TotalDays"
                       ]
                     }
                   ],
                   "events": [
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
@@ -3363,7 +3502,6 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -3427,7 +3565,7 @@
                         "",
                         "assets/cooking.wav",
                         "0",
-                        "100",
+                        "yes",
                         "",
                         ""
                       ]
@@ -3517,7 +3655,6 @@
           "actions": [],
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3585,7 +3722,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3653,7 +3789,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [],
@@ -3717,7 +3852,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3767,7 +3901,7 @@
                             "value": "NumberVariable"
                           },
                           "parameters": [
-                            "Money",
+                            "Money1",
                             ">=",
                             "75"
                           ]
@@ -3791,7 +3925,7 @@
                             "value": "SetNumberVariable"
                           },
                           "parameters": [
-                            "Money",
+                            "Money1",
                             "-",
                             "75"
                           ]
@@ -3805,15 +3939,6 @@
                             {
                               "type": {
                                 "value": "AjoutObjConcern"
-                              },
-                              "parameters": [
-                                "",
-                                "Station"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AjoutHasard"
                               },
                               "parameters": [
                                 "",
@@ -3840,6 +3965,15 @@
                                 "Unlocked",
                                 "=",
                                 ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AjoutHasard"
+                              },
+                              "parameters": [
+                                "",
+                                "Station"
                               ]
                             }
                           ],
@@ -3986,7 +4120,7 @@
                                 "value": "NumberVariable"
                               },
                               "parameters": [
-                                "Money",
+                                "Money1",
                                 "<",
                                 "75"
                               ]
@@ -4046,7 +4180,7 @@
                             "value": "NumberVariable"
                           },
                           "parameters": [
-                            "Money",
+                            "Money1",
                             ">=",
                             "75"
                           ]
@@ -4070,7 +4204,7 @@
                             "value": "SetNumberVariable"
                           },
                           "parameters": [
-                            "Money",
+                            "Money1",
                             "-",
                             "75"
                           ]
@@ -4083,15 +4217,6 @@
                             {
                               "type": {
                                 "value": "AjoutObjConcern"
-                              },
-                              "parameters": [
-                                "",
-                                "Station"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AjoutHasard"
                               },
                               "parameters": [
                                 "",
@@ -4118,6 +4243,15 @@
                                 "Unlocked",
                                 "=",
                                 ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AjoutHasard"
+                              },
+                              "parameters": [
+                                "",
+                                "Station"
                               ]
                             }
                           ],
@@ -4264,7 +4398,7 @@
                                 "value": "NumberVariable"
                               },
                               "parameters": [
-                                "Money",
+                                "Money1",
                                 "<",
                                 "75"
                               ]
@@ -4365,7 +4499,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4703,7 +4836,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4855,7 +4987,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4882,7 +5013,6 @@
               "actions": [],
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -4930,7 +5060,6 @@
                       ]
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -5142,9 +5271,9 @@
                                 "value": "SetNumberVariable"
                               },
                               "parameters": [
-                                "Money",
+                                "Money1",
                                 "+",
-                                "20"
+                                "250"
                               ]
                             },
                             {
@@ -5489,7 +5618,7 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "Money",
+                    "Money1",
                     ">=",
                     "500"
                   ]
@@ -5506,6 +5635,23 @@
                     ""
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Money",
+                "Text",
+                "=",
+                "\"Money:\" + Money1"
               ]
             }
           ]
@@ -5581,6 +5727,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -5604,7 +5754,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.6455105703311478,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5666,7 +5816,7 @@
           "assetStoreId": "",
           "height": 32,
           "name": "Background",
-          "texture": "endcard.png",
+          "texture": "assets\\endcard.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
