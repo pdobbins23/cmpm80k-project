@@ -20,7 +20,7 @@
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "CMPM80K Project",
+    "name": "CMPM80K Project Beta",
     "description": "By Ronan Tsoi, Peter Dobbins, Andrew Ng",
     "author": "",
     "windowWidth": 1280,
@@ -284,7 +284,7 @@
         "alwaysLoaded": false,
         "file": "assets/assets_frame3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_frame3.png\"}",
         "name": "assets/frame3",
         "smoothed": false,
         "userAdded": true
@@ -293,7 +293,7 @@
         "alwaysLoaded": false,
         "file": "assets/Copper Bar Border.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Copper Bar Border.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Copper Bar Border.png",
         "smoothed": false,
         "userAdded": false,
@@ -306,7 +306,7 @@
         "alwaysLoaded": false,
         "file": "assets/Framed Pixel Red Fill Bar.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Framed Pixel Red Fill Bar.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Framed Pixel Red Fill Bar.png",
         "smoothed": false,
         "userAdded": false,
@@ -423,7 +423,7 @@
         "alwaysLoaded": false,
         "file": "assets/KneadedDough.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/KneadedDough.png\"}",
         "name": "KneadedDough",
         "smoothed": false,
         "userAdded": false
@@ -432,7 +432,7 @@
         "alwaysLoaded": false,
         "file": "assets/FriedDough.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/FriedDough.png\"}",
         "name": "FriedDough",
         "smoothed": false,
         "userAdded": true
@@ -531,6 +531,382 @@
         "name": "assets\\endcard.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tutorial-overlay.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tutorial-overlay.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/indicator.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/indicator.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dollar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/dollar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/night-display.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/night-display.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sun.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sun.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/endcard.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/endcard.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/orders-panel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/orders-panel.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/truckinterior-night.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/truckinterior-night.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dough-1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dough-1",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Stove-Night.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stove-Night",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dough-Night.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dough-Night",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/icons.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/KneadedDough2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "KneadedDough2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_tutorial-overlay.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/tutorial-overlay",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_tutorial-overlay2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_tutorial-overlay2.png\"}",
+        "name": "assets/tutorial-overlay2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_tutorial-overlay3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/tutorial-overlay3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_tutorial-overlay4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_tutorial-overlay4.png\"}",
+        "name": "assets/tutorial-overlay4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_tutorial-overlay5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/tutorial-overlay5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/night-overlay.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/night-overlay.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Down5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Down6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Up2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Up2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Up3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Up3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/DownKneadedDough2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "DownKneadedDough2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UpKneadedDough.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "UpKneadedDough",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UpKneadedDough2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "UpKneadedDough2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LeftKneadedDough.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "LeftKneadedDough",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LeftKneadedDough2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "LeftKneadedDough2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RightKneadedDough.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RightKneadedDough",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RightKneadedDough2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RightKneadedDough2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/DownFriedDough2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "DownFriedDough2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UpFriedDough.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "UpFriedDough",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UpFriedDough2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "UpFriedDough2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LeftFriedDough.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "LeftFriedDough",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LeftFriedDough2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "LeftFriedDough2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RightFriedDough.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RightFriedDough",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RightFriedDough2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RightFriedDough2",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -557,13 +933,13 @@
       "folded": true,
       "name": "DayDuration",
       "type": "number",
-      "value": 180
+      "value": 60
     },
     {
       "folded": true,
       "name": "NightDuration",
       "type": "number",
-      "value": 30
+      "value": 10
     },
     {
       "folded": true,
@@ -575,7 +951,7 @@
       "folded": true,
       "name": "TotalDays",
       "type": "number",
-      "value": 0
+      "value": 1
     },
     {
       "folded": true,
@@ -588,6 +964,30 @@
       "name": "Money1",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "DoughUpgradeCost",
+      "type": "number",
+      "value": 75
+    },
+    {
+      "folded": true,
+      "name": "StoveUpgradeCost",
+      "type": "number",
+      "value": 75
+    },
+    {
+      "folded": true,
+      "name": "GlobalVolume",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "SellProfit",
+      "type": "number",
+      "value": 50
     }
   ],
   "layouts": [
@@ -653,7 +1053,12 @@
           "x": 0,
           "y": 0,
           "zOrder": 0,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -674,11 +1079,17 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 4
+              "value": 5
             }
           ],
           "stringProperties": [],
           "initialVariables": [
+            {
+              "folded": true,
+              "name": "Night_Sprite",
+              "type": "string",
+              "value": "Stove-Night"
+            },
             {
               "folded": true,
               "name": "Produces",
@@ -759,6 +1170,12 @@
           "initialVariables": [
             {
               "folded": true,
+              "name": "Night_Sprite",
+              "type": "string",
+              "value": "Stove-Night"
+            },
+            {
+              "folded": true,
               "name": "Produces",
               "type": "string",
               "value": "FriedDough"
@@ -828,6 +1245,12 @@
           ],
           "stringProperties": [],
           "initialVariables": [
+            {
+              "folded": true,
+              "name": "Night_Sprite",
+              "type": "string",
+              "value": "Stove-Night"
+            },
             {
               "folded": true,
               "name": "Produces",
@@ -902,6 +1325,12 @@
           "initialVariables": [
             {
               "folded": true,
+              "name": "Night_Sprite",
+              "type": "string",
+              "value": "Stove-Night"
+            },
+            {
+              "folded": true,
               "name": "Produces",
               "type": "string",
               "value": "FriedDough"
@@ -973,6 +1402,12 @@
           "initialVariables": [
             {
               "folded": true,
+              "name": "Night_Sprite",
+              "type": "string",
+              "value": "Dough-Night"
+            },
+            {
+              "folded": true,
               "name": "Produces",
               "type": "string",
               "value": "KneadedDough"
@@ -1042,6 +1477,12 @@
           ],
           "stringProperties": [],
           "initialVariables": [
+            {
+              "folded": true,
+              "name": "Night_Sprite",
+              "type": "string",
+              "value": "Dough-Night"
+            },
             {
               "folded": true,
               "name": "Produces",
@@ -1125,8 +1566,8 @@
           "name": "Hotbar",
           "persistentUuid": "1e0afe48-90e1-43e5-914f-0591d23ac0e5",
           "width": 96,
-          "x": 31,
-          "y": 591,
+          "x": 35,
+          "y": 610,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -1202,8 +1643,8 @@
           "name": "ProgressBar",
           "persistentUuid": "9abb2be7-9513-4784-8b95-1804e09aeb64",
           "width": 446,
-          "x": 357,
-          "y": 644,
+          "x": 388,
+          "y": 655,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -1269,8 +1710,8 @@
           "name": "Money",
           "persistentUuid": "003f73c0-b9e5-4539-86f7-32553f0d74d4",
           "width": 0,
-          "x": 36,
-          "y": 29,
+          "x": 1106,
+          "y": 578,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -1285,12 +1726,219 @@
           "name": "Total_Days",
           "persistentUuid": "e6f1237c-beb9-40c5-aae7-240b62271130",
           "width": 0,
-          "x": 40,
-          "y": 83,
+          "x": 176,
+          "y": 653,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "DoughUpgradeLabel",
+          "persistentUuid": "88cc4468-bd59-4644-96ea-fe7d75e24f8c",
+          "width": 0,
+          "x": 177,
+          "y": 211,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "StoveUpgradeLabel",
+          "persistentUuid": "1c6020c0-2386-41c0-9167-dc5d321bc538",
+          "width": 0,
+          "x": 177,
+          "y": 316,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 36,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dollar",
+          "persistentUuid": "d09eb4a9-dbe9-464e-92bb-949b167bed99",
+          "width": 27,
+          "x": 1073,
+          "y": 582,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 36,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dollar",
+          "persistentUuid": "0afb88f4-d504-4ecd-88f2-87913eb63cc1",
+          "width": 27,
+          "x": 144,
+          "y": 215,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Hidden",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 36,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dollar",
+          "persistentUuid": "e64dbb91-4ec7-40ba-9f65-d86542e37ac1",
+          "width": 27,
+          "x": 145,
+          "y": 319,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Hidden",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 59.99999999999998,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NightDisplay",
+          "persistentUuid": "2796c0cd-a9d0-44cf-8395-781ac8c87abd",
+          "width": 306,
+          "x": 7,
+          "y": 86,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 66,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Sun",
+          "persistentUuid": "cc0116af-dc08-4f94-9772-4b932f69cff6",
+          "width": 66,
+          "x": 301,
+          "y": 641,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 480.0000000000001,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Orders",
+          "persistentUuid": "8112e9df-2d54-49ee-83a5-313c819190ba",
+          "width": 200,
+          "x": 41,
+          "y": 68,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TutorialOverlay",
+          "persistentUuid": "d8148845-27ea-4436-97f8-4a1afdf9b42e",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 65,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Station",
+          "persistentUuid": "65ebb797-80d5-486b-9eea-63022895851a",
+          "width": 60,
+          "x": 965,
+          "y": 225,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Unlocked",
+              "type": "boolean",
+              "value": true
+            },
+            {
+              "folded": true,
+              "name": "Type",
+              "type": "number",
+              "value": 4
+            },
+            {
+              "name": "NeedItems",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "None",
+                  "type": "number",
+                  "value": 0
+                }
+              ]
+            }
+          ]
         }
       ],
       "objects": [
@@ -1312,6 +1960,12 @@
               "name": "Item",
               "type": "string",
               "value": "None"
+            },
+            {
+              "folded": true,
+              "name": "Direction",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -1322,13 +1976,49 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.2,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Down",
+                      "image": "Down5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Down6",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1371,13 +2061,49 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.2,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Up",
+                      "image": "Up2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Up3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1420,13 +2146,49 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.2,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Left",
+                      "image": "Left2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Left3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1469,13 +2231,49 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.2,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Right",
+                      "image": "Right2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Right3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1518,13 +2316,268 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.2,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "DownKneadedDough",
+                      "image": "DownKneadedDough2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "UpKneadedDough",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "UpKneadedDough",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "UpKneadedDough2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "LeftKneadedDough",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "LeftKneadedDough",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "LeftKneadedDough2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "RightKneadedDough",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RightKneadedDough",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RightKneadedDough2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1567,13 +2620,268 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.2,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "DownFriedDough",
+                      "image": "DownFriedDough2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "UpFriedDough",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "UpFriedDough",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "UpFriedDough2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "LeftFriedDough",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "LeftFriedDough",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "LeftFriedDough2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "RightFriedDough",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RightFriedDough",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RightFriedDough2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1624,7 +2932,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "TruckInteriorDay",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1634,6 +2942,162 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets/truckinterior.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 63,
+                            "y": 56
+                          },
+                          {
+                            "x": 111,
+                            "y": 56
+                          },
+                          {
+                            "x": 111,
+                            "y": 58
+                          },
+                          {
+                            "x": 63,
+                            "y": 58
+                          }
+                        ],
+                        [
+                          {
+                            "x": 78.5,
+                            "y": 90
+                          },
+                          {
+                            "x": 127,
+                            "y": 90
+                          },
+                          {
+                            "x": 127,
+                            "y": 92
+                          },
+                          {
+                            "x": 78.5,
+                            "y": 92
+                          }
+                        ],
+                        [
+                          {
+                            "x": 62,
+                            "y": 58
+                          },
+                          {
+                            "x": 63,
+                            "y": 58
+                          },
+                          {
+                            "x": 63,
+                            "y": 90
+                          },
+                          {
+                            "x": 62,
+                            "y": 90
+                          }
+                        ],
+                        [
+                          {
+                            "x": 63,
+                            "y": 92
+                          },
+                          {
+                            "x": 63,
+                            "y": 90
+                          },
+                          {
+                            "x": 78.5,
+                            "y": 90
+                          },
+                          {
+                            "x": 78.5,
+                            "y": 92
+                          }
+                        ],
+                        [
+                          {
+                            "x": 223,
+                            "y": 58
+                          },
+                          {
+                            "x": 224.5,
+                            "y": 58
+                          },
+                          {
+                            "x": 224.5,
+                            "y": 90
+                          },
+                          {
+                            "x": 223,
+                            "y": 90
+                          }
+                        ],
+                        [
+                          {
+                            "x": 175,
+                            "y": 55
+                          },
+                          {
+                            "x": 223,
+                            "y": 54.5
+                          },
+                          {
+                            "x": 223,
+                            "y": 58
+                          },
+                          {
+                            "x": 175,
+                            "y": 58
+                          }
+                        ],
+                        [
+                          {
+                            "x": 159,
+                            "y": 90
+                          },
+                          {
+                            "x": 223,
+                            "y": 90
+                          },
+                          {
+                            "x": 223,
+                            "y": 92
+                          },
+                          {
+                            "x": 159,
+                            "y": 92
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "TruckInteriorNight",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/truckinterior-night.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1852,6 +3316,12 @@
               "name": "Stage3_Sprite",
               "type": "string",
               "value": "None"
+            },
+            {
+              "folded": true,
+              "name": "Night_Sprite",
+              "type": "string",
+              "value": "None"
             }
           ],
           "effects": [],
@@ -1898,7 +3368,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "stations-nomeat",
+                      "image": "Dough-1",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1911,26 +3381,7 @@
                         "x": 8,
                         "y": 8
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 16,
-                            "y": 0
-                          },
-                          {
-                            "x": 16,
-                            "y": 16
-                          },
-                          {
-                            "x": 0,
-                            "y": 16
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -1947,7 +3398,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Dough-3",
+                      "image": "Dough-5",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1996,7 +3447,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Dough-5",
+                      "image": "Dough-3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2029,6 +3480,36 @@
                           }
                         ]
                       ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Dough-Night",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Dough-Night",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -2176,6 +3657,36 @@
                           }
                         ]
                       ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Stove-Night",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Stove-Night",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -2437,7 +3948,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "FriedDough",
+                      "image": "KneadedDough2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2681,7 +4192,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite4",
+                      "image": "assets/indicator.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2701,16 +4212,16 @@
                             "y": 0
                           },
                           {
-                            "x": 16,
+                            "x": 3,
                             "y": 0
                           },
                           {
-                            "x": 16,
-                            "y": 16
+                            "x": 3,
+                            "y": 6
                           },
                           {
                             "x": 0,
-                            "y": 16
+                            "y": 6
                           }
                         ]
                       ]
@@ -2732,14 +4243,14 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Money: $0",
-          "font": "",
+          "string": "0",
+          "font": "assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf",
           "textAlignment": "left",
           "characterSize": 40,
           "color": {
-            "b": 246,
-            "g": 246,
-            "r": 253
+            "b": 157,
+            "g": 190,
+            "r": 207
           },
           "content": {
             "bold": false,
@@ -2755,11 +4266,11 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Money: $0",
-            "font": "",
+            "text": "0",
+            "font": "assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf",
             "textAlignment": "left",
             "characterSize": 40,
-            "color": "253;246;246"
+            "color": "207;190;157"
           }
         },
         {
@@ -2773,14 +4284,14 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Day: 1",
-          "font": "",
+          "string": "DAY 1",
+          "font": "assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf",
           "textAlignment": "left",
           "characterSize": 40,
           "color": {
-            "b": 245,
-            "g": 245,
-            "r": 245
+            "b": 157,
+            "g": 190,
+            "r": 207
           },
           "content": {
             "bold": false,
@@ -2796,12 +4307,449 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Day: 1",
-            "font": "",
+            "text": "DAY 1",
+            "font": "assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf",
             "textAlignment": "left",
             "characterSize": 40,
-            "color": "245;245;245"
+            "color": "207;190;157"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "DoughUpgradeLabel",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 157,
+            "g": 190,
+            "r": 207
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf",
+            "textAlignment": "left",
+            "characterSize": 40,
+            "color": "207;190;157"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "StoveUpgradeLabel",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 157,
+            "g": 190,
+            "r": 207
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf",
+            "textAlignment": "left",
+            "characterSize": 40,
+            "color": "207;190;157"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Dollar",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Hidden",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/dollar.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 12
+                          },
+                          {
+                            "x": 0,
+                            "y": 12
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NightDisplay",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/night-display.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 51,
+                            "y": 0
+                          },
+                          {
+                            "x": 51,
+                            "y": 10
+                          },
+                          {
+                            "x": 0,
+                            "y": 10
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Sun",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/sun.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 11,
+                            "y": 0
+                          },
+                          {
+                            "x": 11,
+                            "y": 11
+                          },
+                          {
+                            "x": 0,
+                            "y": 11
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Orders",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/orders-panel.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 40,
+                            "y": 0
+                          },
+                          {
+                            "x": 40,
+                            "y": 96
+                          },
+                          {
+                            "x": 0,
+                            "y": 96
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "TutorialOverlay",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "DayOverlay",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/tutorial-overlay.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 252,
+                            "y": 10
+                          },
+                          {
+                            "x": 252,
+                            "y": 141
+                          },
+                          {
+                            "x": 55,
+                            "y": 141
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "NightOverlay",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/night-overlay.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 252,
+                            "y": 10
+                          },
+                          {
+                            "x": 252,
+                            "y": 141
+                          },
+                          {
+                            "x": 55,
+                            "y": 141
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2817,6 +4765,9 @@
             "objectName": "Station"
           },
           {
+            "objectName": "Orders"
+          },
+          {
             "objectName": "InteractIcon"
           },
           {
@@ -2824,6 +4775,12 @@
           },
           {
             "objectName": "Hotbar"
+          },
+          {
+            "objectName": "NightDisplay"
+          },
+          {
+            "objectName": "StoveUpgradeLabel"
           },
           {
             "objectName": "UpgradeStove"
@@ -2838,12 +4795,25 @@
             "objectName": "Money"
           },
           {
+            "objectName": "Dollar"
+          },
+          {
             "objectName": "Total_Days"
+          },
+          {
+            "objectName": "DoughUpgradeLabel"
+          },
+          {
+            "objectName": "Sun"
+          },
+          {
+            "objectName": "TutorialOverlay"
           }
         ]
       },
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2937,8 +4907,82 @@
                 "assets/cooking.wav",
                 "0",
                 "yes",
-                "",
+                "GlobalVolume",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "DoughUpgradeLabel",
+                "Text",
+                "=",
+                "DoughUpgradeCost"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "DoughUpgradeLabel"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "StoveUpgradeLabel",
+                "Text",
+                "=",
+                "StoveUpgradeCost"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "StoveUpgradeLabel"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "NightDisplay"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Dollar",
+                    "Hidden",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Dollar"
+                  ]
+                }
               ]
             }
           ]
@@ -3115,7 +5159,7 @@
                         "assets/night.wav",
                         "0",
                         "yes",
-                        "",
+                        "GlobalVolume",
                         ""
                       ]
                     },
@@ -3127,7 +5171,7 @@
                         "Total_Days",
                         "Text",
                         "=",
-                        "\"Days:\" +TotalDays"
+                        "\"DAY \" + TotalDays"
                       ]
                     }
                   ],
@@ -3258,6 +5302,79 @@
                             "UpgradeStove",
                             "\"50;50;50\""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "DoughUpgradeLabel",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "StoveUpgradeLabel",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "NightDisplay",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "Total_Days"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "Sun"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "Orders"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "TruckInterior",
+                            "Animation",
+                            "=",
+                            "\"TruckInteriorNight\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "TutorialOverlay",
+                            "Animation",
+                            "=",
+                            "\"NightOverlay\""
+                          ]
                         }
                       ],
                       "events": [
@@ -3380,6 +5497,62 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Dollar",
+                                "Hidden",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Montre"
+                              },
+                              "parameters": [
+                                "Dollar",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Station",
+                                "Unlocked",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Station",
+                                "Animation",
+                                "=",
+                                "Station.Night_Sprite"
+                              ]
+                            }
+                          ]
                         }
                       ]
                     },
@@ -3440,7 +5613,7 @@
                             "Station",
                             "Animation",
                             "=",
-                            "Station.Stage1_Sprite"
+                            "Station.Night_Sprite"
                           ]
                         },
                         {
@@ -3566,7 +5739,7 @@
                         "assets/cooking.wav",
                         "0",
                         "yes",
-                        "",
+                        "GlobalVolume",
                         ""
                       ]
                     }
@@ -3629,6 +5802,136 @@
                             "0",
                             "0"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "DoughUpgradeLabel"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "StoveUpgradeLabel"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "NightDisplay"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "Total_Days",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "Sun",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "Orders",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "TruckInterior",
+                            "Animation",
+                            "=",
+                            "\"TruckInteriorDay\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "TutorialOverlay",
+                            "Animation",
+                            "=",
+                            "\"DayOverlay\""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Station",
+                                "Unlocked",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Station",
+                                "Animation",
+                                "=",
+                                "Station.Stage1_Sprite"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Dollar",
+                            "Hidden",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "Dollar"
+                          ]
                         }
                       ]
                     }
@@ -3686,7 +5989,7 @@
                     "",
                     "select",
                     "",
-                    "",
+                    "GlobalVolume",
                     ""
                   ]
                 }
@@ -3753,7 +6056,7 @@
                     "",
                     "select",
                     "",
-                    "",
+                    "GlobalVolume",
                     ""
                   ]
                 }
@@ -3903,7 +6206,7 @@
                           "parameters": [
                             "Money1",
                             ">=",
-                            "75"
+                            "DoughUpgradeCost"
                           ]
                         }
                       ],
@@ -3916,7 +6219,7 @@
                             "",
                             "upgrade",
                             "",
-                            "",
+                            "GlobalVolume",
                             ""
                           ]
                         },
@@ -3927,7 +6230,7 @@
                           "parameters": [
                             "Money1",
                             "-",
-                            "75"
+                            "DoughUpgradeCost"
                           ]
                         }
                       ],
@@ -4122,7 +6425,7 @@
                               "parameters": [
                                 "Money1",
                                 "<",
-                                "75"
+                                "DoughUpgradeCost"
                               ]
                             }
                           ]
@@ -4137,7 +6440,7 @@
                             "",
                             "assets/no_item.wav",
                             "",
-                            "",
+                            "GlobalVolume",
                             ""
                           ]
                         }
@@ -4182,7 +6485,7 @@
                           "parameters": [
                             "Money1",
                             ">=",
-                            "75"
+                            "StoveUpgradeCost"
                           ]
                         }
                       ],
@@ -4195,7 +6498,7 @@
                             "",
                             "upgrade",
                             "",
-                            "",
+                            "GlobalVolume",
                             ""
                           ]
                         },
@@ -4206,7 +6509,7 @@
                           "parameters": [
                             "Money1",
                             "-",
-                            "75"
+                            "StoveUpgradeCost"
                           ]
                         }
                       ],
@@ -4400,7 +6703,7 @@
                               "parameters": [
                                 "Money1",
                                 "<",
-                                "75"
+                                "StoveUpgradeCost"
                               ]
                             }
                           ]
@@ -4415,7 +6718,7 @@
                             "",
                             "assets/no_item.wav",
                             "",
-                            "",
+                            "GlobalVolume",
                             ""
                           ]
                         }
@@ -4444,6 +6747,7 @@
           "actions": [],
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4487,18 +6791,117 @@
                 },
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                    "value": "SetNumberObjectVariable"
                   },
                   "parameters": [
                     "Player",
-                    "Animation",
+                    "Direction",
                     "=",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Item",
+                        "=",
+                        "\"None\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Up\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Item",
+                        "=",
+                        "\"KneadedDough\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"UpKneadedDough\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Item",
+                        "=",
+                        "\"FriedDough\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"UpFriedDough\""
+                      ]
+                    }
                   ]
                 }
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4539,6 +6942,26 @@
                     "Player.Speed",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Direction",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation"
+                  ]
                 }
               ],
               "events": [
@@ -4560,13 +6983,13 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
                         "Player",
                         "Animation",
                         "=",
-                        "0"
+                        "\"Down\""
                       ]
                     }
                   ]
@@ -4589,13 +7012,13 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
                         "Player",
                         "Animation",
                         "=",
-                        "4"
+                        "\"DownKneadedDough\""
                       ]
                     }
                   ]
@@ -4618,13 +7041,13 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
                         "Player",
                         "Animation",
                         "=",
-                        "5"
+                        "\"DownFriedDough\""
                       ]
                     }
                   ]
@@ -4632,6 +7055,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4664,17 +7088,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Animation",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "AddForceXY"
                   },
                   "parameters": [
@@ -4683,10 +7096,120 @@
                     "0",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Direction",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Item",
+                        "=",
+                        "\"None\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Left\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Item",
+                        "=",
+                        "\"KneadedDough\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"LeftKneadedDough\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Item",
+                        "=",
+                        "\"FriedDough\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"LeftFriedDough\""
+                      ]
+                    }
+                  ]
                 }
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4719,17 +7242,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Animation",
-                    "=",
-                    "3"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "AddForceXY"
                   },
                   "parameters": [
@@ -4737,6 +7249,211 @@
                     "Player.Speed",
                     "0",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Direction",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Item",
+                        "=",
+                        "\"None\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Right\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Item",
+                        "=",
+                        "\"KneadedDough\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"RightKneadedDough\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Item",
+                        "=",
+                        "\"FriedDough\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"RightFriedDough\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Up"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "w"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Down"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "s"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "a"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Right"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "d"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation"
                   ]
                 }
               ]
@@ -5053,7 +7770,7 @@
                             "",
                             "assets/no_item.wav",
                             "",
-                            "",
+                            "GlobalVolume",
                             ""
                           ]
                         }
@@ -5128,7 +7845,7 @@
                                     "",
                                     "PickupItem",
                                     "",
-                                    "",
+                                    "GlobalVolume",
                                     ""
                                   ]
                                 }
@@ -5194,6 +7911,17 @@
                             },
                             {
                               "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Station",
+                                "Animation",
+                                "=",
+                                "Station.Stage2_Sprite"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "Create"
                               },
                               "parameters": [
@@ -5224,17 +7952,6 @@
                                 "ProgressBar",
                                 "Station"
                               ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Station",
-                                "Animation",
-                                "=",
-                                "Station.Stage2_Sprite"
-                              ]
                             }
                           ]
                         },
@@ -5262,7 +7979,7 @@
                                 "",
                                 "assets/sell_item.wav",
                                 "",
-                                "",
+                                "GlobalVolume",
                                 ""
                               ]
                             },
@@ -5273,7 +7990,7 @@
                               "parameters": [
                                 "Money1",
                                 "+",
-                                "20"
+                                "SellProfit"
                               ]
                             },
                             {
@@ -5360,7 +8077,7 @@
                         "",
                         "PickupItem",
                         "",
-                        "",
+                        "GlobalVolume",
                         ""
                       ]
                     }
@@ -5369,7 +8086,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -5478,26 +8194,6 @@
                     },
                     {
                       "type": {
-                        "value": "LinkedObjects::PickObjectsLinkedTo"
-                      },
-                      "parameters": [
-                        "",
-                        "ProgressBar",
-                        "Station",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "ProgressBar",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
@@ -5515,7 +8211,27 @@
                         "",
                         "ItemDone",
                         "",
+                        "GlobalVolume",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
                         "",
+                        "ProgressBar",
+                        "Station",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "ProgressBar",
                         ""
                       ]
                     }
@@ -5651,7 +8367,7 @@
                 "Money",
                 "Text",
                 "=",
-                "\"Money:\" + Money1"
+                "Money1"
               ]
             }
           ]
@@ -5764,31 +8480,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 718,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Background",
-          "persistentUuid": "9060db01-659f-4f57-b2e8-77ece3441168",
-          "width": 1277,
-          "x": 2,
-          "y": 3,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 224,
           "keepRatio": true,
           "layer": "",
           "name": "Days",
           "persistentUuid": "c2e90bd6-7a23-477f-a5ce-77578a251209",
           "width": 387,
-          "x": 653,
-          "y": 322,
+          "x": 650,
+          "y": 127,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -5803,26 +8502,96 @@
           "name": "Pupusas_Sold",
           "persistentUuid": "9c362dac-7b5d-462f-89b9-354d854b202a",
           "width": 0,
-          "x": 653,
-          "y": 404,
+          "x": 651,
+          "y": 208,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Endcard",
+          "persistentUuid": "7b7ac45c-3ade-4d2e-9162-b84175f7bb02",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ArtCredits",
+          "persistentUuid": "98588798-8044-4943-9ac5-d26a65a77caa",
+          "width": 0,
+          "x": 691,
+          "y": 369,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Credits",
+          "persistentUuid": "3d88db19-60a5-44cc-a263-b37a4ee94b81",
+          "width": 0,
+          "x": 744,
+          "y": 304,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ProgrammingCredit",
+          "persistentUuid": "cd17866a-2266-42f4-9a29-8548e686d361",
+          "width": 0,
+          "x": 633,
+          "y": 464,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "DesignCredit",
+          "persistentUuid": "086712e4-0284-48c6-83b8-399cd5fc4a7f",
+          "width": 0,
+          "x": 653,
+          "y": 418,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
       "objects": [
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "Background",
-          "texture": "assets\\endcard.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
         {
           "assetStoreId": "",
           "bold": false,
@@ -5835,13 +8604,13 @@
           "effects": [],
           "behaviors": [],
           "string": "Total Days:\n",
-          "font": "9bf5e100819cd6d0fd92481cdb1282f88a48e49dfb3709df8015e0cd37de8fb4_MPLUS1p-ExtraBold.ttf",
+          "font": "assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf",
           "textAlignment": "left",
           "characterSize": 50,
           "color": {
-            "b": 243,
-            "g": 243,
-            "r": 243
+            "b": 157,
+            "g": 190,
+            "r": 207
           },
           "content": {
             "bold": false,
@@ -5858,10 +8627,10 @@
             "smoothed": true,
             "underlined": false,
             "text": "Total Days:\n",
-            "font": "9bf5e100819cd6d0fd92481cdb1282f88a48e49dfb3709df8015e0cd37de8fb4_MPLUS1p-ExtraBold.ttf",
+            "font": "assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf",
             "textAlignment": "left",
             "characterSize": 50,
-            "color": "243;243;243"
+            "color": "207;190;157"
           }
         },
         {
@@ -5876,13 +8645,13 @@
           "effects": [],
           "behaviors": [],
           "string": "Pupusas Sold: ",
-          "font": "9bf5e100819cd6d0fd92481cdb1282f88a48e49dfb3709df8015e0cd37de8fb4_MPLUS1p-ExtraBold.ttf",
+          "font": "assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf",
           "textAlignment": "left",
           "characterSize": 50,
           "color": {
-            "b": 243,
-            "g": 243,
-            "r": 243
+            "b": 157,
+            "g": 190,
+            "r": 207
           },
           "content": {
             "bold": false,
@@ -5899,10 +8668,234 @@
             "smoothed": true,
             "underlined": false,
             "text": "Pupusas Sold: ",
-            "font": "9bf5e100819cd6d0fd92481cdb1282f88a48e49dfb3709df8015e0cd37de8fb4_MPLUS1p-ExtraBold.ttf",
+            "font": "assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf",
             "textAlignment": "left",
             "characterSize": 50,
-            "color": "243;243;243"
+            "color": "207;190;157"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Endcard",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/endcard.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 256,
+                            "y": 0
+                          },
+                          {
+                            "x": 256,
+                            "y": 144
+                          },
+                          {
+                            "x": 0,
+                            "y": 144
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ArtCredits",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Ronan Tsoi - Artwork",
+          "font": "assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 157,
+            "g": 190,
+            "r": 207
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Ronan Tsoi - Artwork",
+            "font": "assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf",
+            "textAlignment": "left",
+            "characterSize": 30,
+            "color": "207;190;157"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Credits",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "CREDITS",
+          "font": "assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 157,
+            "g": 190,
+            "r": 207
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "CREDITS",
+            "font": "assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf",
+            "textAlignment": "left",
+            "characterSize": 40,
+            "color": "207;190;157"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ProgrammingCredit",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Peter Dobbins - Programming",
+          "font": "assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 157,
+            "g": 190,
+            "r": 207
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Peter Dobbins - Programming",
+            "font": "assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf",
+            "textAlignment": "left",
+            "characterSize": 30,
+            "color": "207;190;157"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "DesignCredit",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Andrew Ng - Game Design",
+          "font": "assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 157,
+            "g": 190,
+            "r": 207
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Andrew Ng - Game Design",
+            "font": "assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf",
+            "textAlignment": "left",
+            "characterSize": 30,
+            "color": "207;190;157"
           }
         }
       ],
@@ -5910,13 +8903,25 @@
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "Background"
-          },
-          {
             "objectName": "Days"
           },
           {
             "objectName": "Pupusas_Sold"
+          },
+          {
+            "objectName": "Endcard"
+          },
+          {
+            "objectName": "ProgrammingCredit"
+          },
+          {
+            "objectName": "DesignCredit"
+          },
+          {
+            "objectName": "ArtCredits"
+          },
+          {
+            "objectName": "Credits"
           }
         ]
       },
@@ -6007,8 +9012,16 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
         },
         {
           "name": "Opacity",
