@@ -20,8 +20,8 @@
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "CMPM80K Project Beta",
-    "description": "By Ronan Tsoi, Peter Dobbins, Andrew Ng",
+    "name": "CMPM80K Project Final - Pupusa Rush",
+    "description": "Credits:\n\nRonan Tsoi - Artwork & Design\nAndrew Ng - Programming & Design\nPeter Dobbins - Programming & Sound",
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
@@ -53,7 +53,9 @@
     "authorIds": [],
     "authorUsernames": [],
     "categories": [],
-    "playableDevices": [],
+    "playableDevices": [
+      "keyboard"
+    ],
     "extensionProperties": [],
     "platforms": [
       {
@@ -1291,7 +1293,7 @@
       "folded": true,
       "name": "GlobalVolume",
       "type": "number",
-      "value": 50
+      "value": 100
     },
     {
       "folded": true,
@@ -6463,6 +6465,7 @@
           ],
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
